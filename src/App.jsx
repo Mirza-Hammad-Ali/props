@@ -1,14 +1,10 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import "./App.css";
+import User from "./user";
 
 function App() {
   return (
-    <>
-     <user name="Hammad" age={22} />
-    </>
+    <div>
+      <User name="hammad" age={22} />
+    </div>
   );
 }
 
