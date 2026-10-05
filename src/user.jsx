@@ -1,9 +1,16 @@
-function User({name , age}) {
+// function User({ name, age }) {
+//   return (
+//     <h1>
+//       Hello {name} your age {age}
+//     </h1>
+//   );
+// }
+function Product({ name, price }) {
   return (
-    <h1>
-      Hello {name} your age {age}
-    </h1>
+    <div>
+      <h1>{name}</h1>
+      <p>price: {price}</p>
+    </div>
   );
 }
-
-export default User;
+export default Product;

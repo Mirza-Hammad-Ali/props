@@ -1,9 +1,11 @@
-import User from "./user";
+import Product from "./user";
 
 function App() {
   return (
     <div>
-<User name="hammad" age= "22"/>
+      <Product name="Laptop" price="$1000"/>
+      <Product name="Mouse" price="$50"/>
+      <Product name="Keyboard" price="$100"/>
     </div>
   );
 }
