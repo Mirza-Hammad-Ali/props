@@ -5,12 +5,24 @@
 //     </h1>
 //   );
 // }
-function Product({ name, price }) {
+// function Product({ name, price }) {
+//   return (
+//     <div>
+//       <h1>{name}</h1>
+//       <p>price: {price}</p>
+//     </div>
+//   );
+// }
+// export default Product;
+
+function StudentCard({ name, age, department, semester }) {
   return (
     <div>
-      <h1>{name}</h1>
-      <p>price: {price}</p>
+      <h1>Name: {name}</h1>
+      <h1>Age: {age}</h1>
+      <h1>Department: {department}</h1>
+      <h1>Semester: {semester}</h1>
     </div>
   );
 }
-export default Product;
+export default StudentCard;

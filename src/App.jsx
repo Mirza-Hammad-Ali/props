@@ -1,11 +1,28 @@
-import Product from "./user";
+import StudentCard from "./user";
 
 function App() {
   return (
     <div>
-      <Product name="Laptop" price="$1000"/>
-      <Product name="Mouse" price="$50"/>
-      <Product name="Keyboard" price="$100"/>
+      <StudentCard
+        name="Ali"
+        age={21}
+        department="Software Engineering"
+        semester={7}
+      />
+
+      <StudentCard
+        name="Hammad"
+        age={22}
+        department="Computer Science"
+        semester={6}
+      />
+
+      <StudentCard
+        name="Ahmed"
+        age={20}
+        department="Information Technology"
+        semester={5}
+      />
     </div>
   );
 }
