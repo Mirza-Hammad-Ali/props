@@ -1,7 +1,7 @@
-function User(props) {
+function User({name , age}) {
   return (
     <h1>
-      Hello {props.name} your age {props.age}
+      Hello {name} your age {age}
     </h1>
   );
 }
