@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <>
-     
+     <user name="Hammad" age={22} />
     </>
   );
 }
